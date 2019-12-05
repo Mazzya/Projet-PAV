@@ -10,7 +10,7 @@ include("connectbase.php");
 <center>
         <h1>Formulaire de saisie des PAV</h1>
         <h2>Entrez l'adresse des PAV :</h2>
-        <form name="inscription" method="post" action="traitementpav.php">
+        <form name="inscription" method="post" action="gestionpav.php">
             Entrez l'adresse (rue, lieu dit): <input type="text" name="adresse"/> <br/><br>
             Entrez le code postal: <input type="text" name="code_postal"/> <br/><br>
             Entrez la ville: <input type="text" name="ville"/> <br/><br>

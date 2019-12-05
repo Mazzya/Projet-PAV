@@ -10,7 +10,14 @@
     <center>
         <h1>Gestions des Agents de collecte</h1>
         <?php
-        include("connectbase.php");
+		include("connectbase.php");
+		if (isset ($_POST['valider'])){
+            //On récupère les valeurs entrées par l'utilisateur :
+            $prenom=$_POST['prenom'];
+            $nom=$_POST['nom'];
+            $ident=$_POST['ident'];
+            $mdp=$_POST['mdp'];
+			$smtp = $db->query("INSERT INTO `agent`( `nom`, `prenom`, `ident`, `mdp`,`id_admin`)  VALUES ('$prenom', '$nom', '$ident', '$mdp', '1');");}
         echo "<a href='formulaire_agent.php'>Ajouter un nouvel Agent</a> <br><br>";
 		$mysqli = new mysqli('localhost', 'root', '', 'mcd');
 		$mysqli->set_charset("utf8");
