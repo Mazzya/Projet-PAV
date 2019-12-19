@@ -1,0 +1,79 @@
+.bandeauh {
+background-color: white;
+width:1136px;
+height:238px;
+margin: auto;
+background: url("../images/haut.png");
+  }
+
+
+  .contenu {
+ background: url("../images/fondcontenu.png");
+ display: block;
+background-color: white;
+width:1136px;
+margin: auto;
+padding-bottom: 20px
+}
+
+.bandeaub {
+
+width:1136px;
+height:176px;
+margin: auto;
+background: url("../images/bas.png");
+  }
+
+.fond1a {
+background-color: white;
+background: url("../images/bg.png");
+background-repeat: repeat space;
+}
+
+body {
+ background-image: url("../images/bg.png");
+ background-repeat: repeat-x;
+ background-color: white;
+}
+
+.bouton {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#respge1 {
+	   display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+   margin: auto;
+    }
+    a:link {color: black;}
+a:visited {color: gray;}
+a:hover {color: red;}
+a:active {color: red;}
+
+.menuinc{
+	width:1136px;
+	height:30px;
+
+}
+
+.bandeaux{
+  float:right;
+}
+.hautresp{
+  justify-content: center;
+}
+
+.central{
+background: url("images/fondcontenu.png");
+ display: block;
+background-color: white;
+
+}
+
+.resag{
+  text-align: center;
+}
